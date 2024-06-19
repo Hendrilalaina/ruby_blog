@@ -1,0 +1,16 @@
+print       # Output without end separator
+p           # Output in "" all characters
+puts        # Output with '\n' end separator
+gets.chomp  # Input method and remove the '\n' at the end
+.to_i       # Convert string to integer
+.to_s       # Convert number to string
+.to_f       # Convert to float
+.next       # Increment number
+.succ       # Successor of symbol like .next
+.pred       # Decrement number, error if string
+n.times     # For loop in n times
+|i|         # Block variables, start with 0
+m.downto(n) # Decrement m to n in for loop
+m.upto(n)   # Increment m to n in for loop
+i.step(j, k)    # Start with i to j and step by k in for loop
+.respond_to?(:) # Ask it object can call the method in parameter

@@ -1,0 +1,25 @@
+.to_i       # Convert string to integer
+.to_s       # Convert number to string
+.to_f       # Convert to float
+.nil?       # Ask if string is null
+.empty?     # Ask if string is empty
+.upcase     # Uppercase the string
+.downcase   # Lowercase the string
+.capitalize # Capitalize the string
+.swapcase   # Swap string case
+.#case_function! # Override the original string
+.length     # Size of string
+.reverse    # Reverse a string
+.delete(?'')    # Delete character in the string
+.strip      # Remove whitespace at the start and end
+.include?(?'')  # Ask if string contains a parameter
+.inspect    # Like p method
+.concat()   # Concatenate two strings
+.prepend()  # Concatenate second string before the first
+<<          # Like .concat()
++           # Like <<
+<<MLS ?? MLS    # Multiline strings
+.slice(n)   # Return the character in the n index
+.slice(m, n)    # Extract multiple characters to m and n length
+.slice(m..n)    # Extract m-th to n-th characters
+.slice(m...n)   # Like .slice(m..n) but exclude n-th character

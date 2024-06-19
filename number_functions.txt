@@ -1,0 +1,10 @@
+.to_i       # Convert string to integer
+.to_f       # Convert to float
+.class      # Return the classname of object
+.odd?       # Ask if number is odd
+.even?      # Ask if number is even
+.nan?       # Ask if object is not a number
+.between?(min, max)  # Ask if object is between min and max
+.floor      # Round down the number to the closet integer
+.ceil       # Round up the number to the closet integer
+.round      # Approximate the number to the closet integer
