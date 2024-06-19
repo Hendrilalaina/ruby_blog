@@ -1,7 +1,9 @@
 print       # Output without end separator
 p           # Output in "" all characters
 puts        # Output with '\n' end separator
-gets.chomp  # Input method and remove the '\n' at the end
+gets.chomp  # Input method and drop character possibly removed at the end
+unless      # The opposite of if statement
+until       # Like while keyword with condition
 .to_i       # Convert string to integer
 .to_s       # Convert number to string
 .to_f       # Convert to float

@@ -8,3 +8,5 @@
 .floor      # Round down the number to the closet integer
 .ceil       # Round up the number to the closet integer
 .round      # Approximate the number to the closet integer
+.gcd()      # Return the PGCD
+.lcm()      # Return the PPCM
