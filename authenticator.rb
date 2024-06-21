@@ -22,7 +22,7 @@ def authenticate(uname, passwd)
     if user[:username] == uname
         if user[:password] == passwd
           puts "You are connected as #{uname}!"
-          return
+          exit
         else
           puts "Credentials are not matched!"
           connect
