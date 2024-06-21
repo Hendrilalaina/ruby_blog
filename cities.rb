@@ -14,21 +14,17 @@ dial_book = {
 def display_cities(dial_book)
   puts
   puts "*" * 5 + "All cities" + "*" * 5
-  dial_book.each {|key, value| puts key.capitalize}
+  dial_book.each {|key, _value| puts key.capitalize}
 end
 
 def get_input
   print "Enter the name of city: "
-  return gets.chomp
+  gets.chomp
 end
 
 def get_area_code(dial_book, city_name)
   city_name.downcase!
-  if dial_book.include?(city_name)
-    puts dial_book[city_name]
-  else
-    puts "City unavailable!"
-  end
+  puts dial_book.include?(city_name) ? dial_book[city_name] : "City unavailable!"
 end
 
 def prompt
@@ -39,5 +35,5 @@ end
 loop do
   display_cities(dial_book)
   get_area_code(dial_book, get_input)
-  break if prompt.downcase != 'y'
+  break unless prompt.downcase == 'y'
 end

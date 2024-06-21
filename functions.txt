@@ -4,6 +4,7 @@ puts        # Output with '\n' end separator
 gets.chomp  # Input method and drop character possibly removed at the end
 unless      # The opposite of if statement
 until       # Like while keyword with condition
+rand        # Generate a random number
 .to_i       # Convert string to integer
 .to_s       # Convert number to string
 .to_f       # Convert to float
