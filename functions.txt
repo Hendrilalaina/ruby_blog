@@ -4,6 +4,8 @@ puts        # Output with '\n' end separator
 gets.chomp  # Input method and drop character possibly removed at the end
 unless      # The opposite of if statement
 until       # Like while keyword with condition
+next        # Like continue in other programming language
+break       # Stop loop block
 rand        # Generate a random number
 .to_i       # Convert string to integer
 .to_s       # Convert number to string
@@ -17,3 +19,18 @@ m.downto(n) # Decrement m to n in for loop
 m.upto(n)   # Increment m to n in for loop
 i.step(j, k)    # Start with i to j and step by k in for loop
 .respond_to?(:) # Ask it object can call the method in parameter
+<=>         # Return -1 if <, 0 if = and 1 if >
+.reverse    # Reverse the array
+.reverse!   # Erase the array to its reverse
+.sort       # Sort the array
+.sort!      # Erase the array to its sort
+.concat(a)  # Concatenate the array and the other
+.max        # Return the maximum element in the array
+.min        # Return the minimum element in the array
+.include?   # Verify the array contains a value in argument
+.index      # Return the index of value
+.find_index # Like .index
+.select     # Contains condition and return the elements verifying this condition
+.reject     # Contains condition and remove the elements verifying the condition
+.partition  # Contains condition and partition to two new arrays
+.object_id  # Return the object position in the memory

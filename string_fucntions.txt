@@ -23,3 +23,9 @@
 .slice(m, n)    # Extract multiple characters to m and n length
 .slice(m..n)    # Extract m-th to n-th characters
 .slice(m...n)   # Like .slice(m..n) but exclude n-th character
+.split          # Return an array of substrings separate by separator
+.chars          # Return an array of each characters
+.each           # For loop character by character
+.count          # Return the number of occurences of a character
+.clear          # Remove all characters in the string
+.delete         # Remove characters parsed in argument

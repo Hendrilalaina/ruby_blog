@@ -1,0 +1,21 @@
+.slice(i)     # Return the value at i index
+.values_at(n) # Like .slice but can take an array argument
+.length       # Return the number of elements in the array
+.size         # Like .length
+.count(n)     # Return the number of occcurences of n in the array
+.empty?       # Verify if the array is empty
+.nil?         # Verify if the array exists
+.first(:n)    # Return an array of the n first elements ; if no argument, return the first element
+.last(:n)     # Return an array of the n last elements ; if no argument, return the last element
+.push(s)      # Insert s elements at the end
+<< s          # Like .push
+.insert(i, s) # Insert s elements at the i index
+.pop(:n)      # Remove the n last elemens in the array and copy in other variable
+.shift(:n)    # Like .pop but at the beginning of the array
+.unshift(:n)  # Insert n elements at the beginning of the array
+.each         # Loop each element in the array
+.each_with_index  # Loop each element in the array with index number
+.map          # Return new Array whose elements are the return values of the block
+.map!         # Replace each elements to the return values of block
+.collect      # Like .map
+.join         # Return a new String by joining all elements in the array
